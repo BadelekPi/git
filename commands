@@ -1,0 +1,59 @@
+git init 
+
+git status
+
+git add <path>
+
+git add .      // adding all files to current repo, (warning) check with git status before adding
+
+git commit -m "message"
+
+git clean -nd  // delete all non-added files
+git clean -idf
+
+git reset      // cancel files from added files
+
+git checkout -- <path>     // delete all of the changes
+
+git checkout <path>  // return state of the file from git index (available only if file exist on git)
+
+git log --oneline    // view history of current repo in more readable mode
+
+-------------------------------------------------------------------------------------------------------------------
+
+git checkout <hash of repo version>   // move to changed repo version
+
+git checkout <hash of repo version> <path>  // return version
+
+git checkout -b <new branch name>
+
+git revert  # switch changes from current commit to new commit
+
+--------------------------------------------------------------------------------------------------------------------
+
+git log --oneline
+
+git log --author="Piotr"
+
+git log --oneline --author="Piotr"
+
+git  log --grep="find word"
+
+git log --oneline -3
+
+git log --oneline -- <path>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
