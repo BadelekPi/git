@@ -1,0 +1,9 @@
+git stash             -> put unsaved modified files on stash
+
+git checkout (branch name)
+
+git stash pop         -> return modified files from stash
+
+git stash push -m     -> put modified files on stash with comment
+
+git stash list 
