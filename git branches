@@ -1,0 +1,6 @@
+git merge name_of_branch        -> merging current branch with another
+
+git log --graph --decorate --all --oneline        -> display window with changes in branch
+
+git branch -D name_of_branch       -> delete branch
+
