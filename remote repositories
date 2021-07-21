@@ -1,0 +1,5 @@
+git push
+
+git fetch                 -> download content from remote repository to local current repo
+
+git merge origin/master   -> update local repo
